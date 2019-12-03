@@ -1,0 +1,17 @@
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+h1{
+  background: #4aaaa5; 
+  font-family: 'Georgia', Times, 'Times New Roman', serif; 
+  padding: 25px;
+  width: 25%;
+  color: white;
+  float: left;
+}
+#links {
+    float: right;
+}
