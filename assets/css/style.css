@@ -15,3 +15,12 @@ h1{
 #links {
     float: right;
 }
+
+#footer {
+    text-align: center;
+    background: #666666;
+}
+
+#index-pic {
+    float: left;
+}
