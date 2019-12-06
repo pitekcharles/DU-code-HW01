@@ -1,6 +1,7 @@
 *{
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     z-index: 10;
+    color:#777777;
 }
 
 body {
@@ -65,7 +66,7 @@ a {
     text-align: center;
     border-style: solid none none none;
     border-color: #4aaaa5;
-    border-width: 5px;
+    border-width: 8px;
     background: #666666;
     color: white;
     /* position: fixed;
@@ -90,9 +91,9 @@ a {
     margin-top: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: lightgray;
+    border-color: #dddddd;
     padding: 20px;
-    background: white;
+    background:#ffffff;
     line-height: 1.8;
     /* min-height: calc(100vh - 70px); */
     margin-bottom: 20px;
@@ -109,7 +110,7 @@ a {
 
 .background1 {
     border-style:none none solid none;
-    border-color:lightgrey;
+    border-color:#cccccc;
     border-width:1px;
     background: white;
 }
@@ -140,6 +141,7 @@ input {
     width: 75px;
     color: white;
     background: #4aaaa5;
+    padding:10px;
 }
 
 #portfoliopic {
@@ -160,6 +162,7 @@ input {
     z-index: 20;
     background: #4aaaa5;
     text-align:center;
+    color:white;
 }
 
 #box2 {
@@ -171,6 +174,7 @@ input {
     z-index: 20;
     background: #4aaaa5;
     text-align:center;
+    color:white;
 }
 
 #box3 {
@@ -182,6 +186,7 @@ input {
     z-index: 20;
     background: #4aaaa5;
     text-align:center;
+    color:white;
 }
 
 #box4 {
@@ -193,6 +198,7 @@ input {
     z-index: 20;
     background: #4aaaa5;
     text-align:center;
+    color:white;
 }
 
 #box5 {
@@ -204,8 +210,13 @@ input {
     z-index: 20;
     background: #4aaaa5;
     text-align:center;
+    color:white;
 }
 
 textarea {
     width:100%;
+}
+
+#subbutton:hover {
+    cursor: pointer;
 }
